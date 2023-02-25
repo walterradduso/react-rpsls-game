@@ -1,0 +1,57 @@
+$rpsls-orange: #C84B31;
+$rpsls-red: #8F1D14;
+
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 400px;
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .rpsls-buttons {
+    display: flex;
+    gap: 1em;
+
+    button {
+      background-color: $rpsls-orange;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      font-size: 2em;
+      padding: 10px 15px;
+      text-shadow: #000 1px 1px 10px;
+
+      &.selected {
+        background-color: $rpsls-red;
+      }
+
+      &:hover {
+        background-color: $rpsls-red;
+      }
+    }
+  }
+
+  .restart-game {
+    margin-top: 20px;
+
+    button {
+      background-color: $rpsls-orange;
+      border-radius: 6px;
+      border: none;
+      font-size: 1.5em;
+      padding: 10px 15px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $rpsls-red;
+      }
+    }
+  }
+}

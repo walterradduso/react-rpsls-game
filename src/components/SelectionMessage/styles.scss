@@ -1,0 +1,27 @@
+.rpsls-selection {
+  background-color: #1B120F;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  width: 100%;
+
+  p {
+    font-size: 1.3em;
+    margin: 15px 0;
+  }
+
+  .loading {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 15px;
+
+    p {
+      margin: 0;
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+}

@@ -1,10 +1,12 @@
-import { ReactElement, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
+import { ResultMessage } from '../ResultMessage';
+import { SelectionMessage } from '../SelectionMessage';
 import { OPTIONS } from '../../constants';
 
-import './App.scss';
+import './styles.scss';
 
-interface Selection {
+export interface Selection {
   id: number;
   name: string;
   label: string;
@@ -56,30 +58,6 @@ function App() {
     setWinner(null);
   };
 
-  const renderWinnerMessage = (): ReactElement => {
-    if (winner === 1) {
-      return (
-        <p>
-          El ganador eres <b>TU</b>!
-        </p>
-      );
-    }
-
-    if (winner === 2) {
-      return (
-        <p>
-          El ganador es la <b>IA</b>
-        </p>
-      );
-    }
-
-    return (
-      <p>
-        Es un <b>EMPATE</b>
-      </p>
-    );
-  };
-
   return (
     <div className="App">
       <h1>
@@ -107,22 +85,9 @@ function App() {
         })}
       </div>
 
-      {userSelection?.id && (
-        <div className="rpsls-selection">
-          {userSelection?.id && <p>Seleccionaste {userSelection?.label}</p>}
+      <SelectionMessage iaSelection={iaSelection} loading={loading} userSelection={userSelection} />
 
-          {iaSelection?.id && <p>La IA seleccionó {iaSelection?.label}</p>}
-
-          {loading && (
-            <div className="loading">
-              <p>La IA está seleccionado una opción</p>
-              <img alt="Spinner" src="https://media.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" />
-            </div>
-          )}
-        </div>
-      )}
-
-      {winner && <div className="winner-message">{renderWinnerMessage()}</div>}
+      <ResultMessage winner={winner} />
 
       {winner && (
         <div className="restart-game">
