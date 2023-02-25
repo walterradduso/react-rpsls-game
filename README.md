@@ -1,13 +1,13 @@
-## Project "RPSLS"
+# Project "RPSLS"
 
 ---
 
-#### Piedra - Papel - Tijera - Lagarto - Spock
-#### Rock - Paper - Scissor - Lizard - Spock
+### Piedra - Papel - Tijera - Lagarto - Spock
+### Rock - Paper - Scissor - Lizard - Spock
 
 ---
 
-#### Iniciar Proyecto
+### Iniciar Proyecto
 
 * Clonar el proyecto
 * Instalar dependencias
@@ -20,7 +20,7 @@
   ```
 * Jugar
 
-#### Descripción
+### Descripción
 
 Es un pequeño juego en el cual el usuario elige una de las 5 opciones y luego (de manera aleatoria) la "computadora" elige otra opción, en base a esas decisiones se muestra un mensaje si gana el usuario, la computadora o es empate.
 
@@ -29,7 +29,7 @@ Fue desarrollado en vivo en el [stream](https://www.twitch.tv/codigodemarras).
 
 ---
 
-#### Init Project
+### Init Project
 
 * Clone the projecto
 * Install dependencies
@@ -42,7 +42,7 @@ Fue desarrollado en vivo en el [stream](https://www.twitch.tv/codigodemarras).
   ```
 * Play
 
-#### Description
+### Description
 
 It is a small game in which the user chooses one of the 5 options and then (randomly) the "computer" chooses another option, based on these decisions a message is displayed if the user wins, the computer wins or it is a tie.
 
@@ -51,22 +51,20 @@ It was developed live in the [stream](https://www.twitch.tv/codigodemarras).
 
 ---
 
-#### Demo
+### Demo
 <div>
-  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-selection.png?alt=media&token=72ca9e0d-27c4-4009-8af6-a5a82f90d047" width="350" title="game start">
+  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-selection.png?alt=media&token=eb2c3318-654d-40b7-bdd9-0244ec7a6578" width="350" title="game start">
 
-  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-user.png?alt=media&token=8add06fc-2135-42e6-bda5-c49acaa00676" width="350" title="game start">
+  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-user.png?alt=media&token=aeae4a34-dd8d-45fd-a642-9f829fadc0bf" width="350" title="user win">
 
-  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-computer.png?alt=media&token=7ed69fff-eec2-48ce-9e3f-f435cd1843f5" width="350" title="game start">
+  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-computer.png?alt=media&token=478f5e3c-d7d5-499d-a9fc-37dbe80db6fc" width="350" title="computer win">
 
-  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-tie.png?alt=media&token=e16f1630-b60c-41dd-bc01-1a01c27386a4" width="350" title="game start">
-
-  <video src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frock%20paper%20scissor%20lizard%20spock.mov?alt=media&token=fac73b99-77b7-4c7d-9cef-1ea6be6f239d" width="350" />
+  <img src="https://firebasestorage.googleapis.com/v0/b/webresources-d9542.appspot.com/o/rpsls-project%2Frpsls-tie.png?alt=media&token=01341f71-30e1-41ec-a357-a1b289a6769b" width="350" title="tie">
 </div>
 
 ---
 
-#### Redes / Networks
+### Redes / Networks
 
 <div id="badges">
   <a href="http://twitch.codigodemarras.com/" target="_blanck">
