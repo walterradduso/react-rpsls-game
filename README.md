@@ -27,6 +27,8 @@ Es un pequeño juego en el cual el usuario elige una de las 5 opciones y luego (
 Este proyecto es el tercer proyecto de una serie de proyectos con React.
 Fue desarrollado en vivo en el [stream](https://www.twitch.tv/codigodemarras).
 
+La idea des estos proyectos es ir realizando proyectos que vayan incrementando su dificultad, desde un tic-tac-toe, pasando por un memory game, un sudoku y agregando más complejidad proyecto a proyecto...
+
 ---
 
 ### Init Project
@@ -48,6 +50,23 @@ It is a small game in which the user chooses one of the 5 options and then (rand
 
 This project is the third project from a serie of projecs with React.
 It was developed live in the [stream](https://www.twitch.tv/codigodemarras).
+
+The idea of these projects is to make projects of increasing difficulty, from a tic-tac-toe, through a memory game, a sudoku and adding more complexity one project at a time...
+
+---
+
+#### Tools
+
+- ViteJs
+- React
+- Sass
+
+---
+
+#### Node Version
+```
+v18.13.0.
+```
 
 ---
 
