@@ -1,44 +1,15 @@
-# Project "RPSLS"
-
----
-
-### Piedra - Papel - Tijera - Lagarto - Spock
-### Rock - Paper - Scissor - Lizard - Spock
-
----
-
-### Iniciar Proyecto
-
-* Clonar el proyecto
-* Instalar dependencias
-  ```
-  pnpm install
-  ```
-* Levantar proyecto
-  ```
-  pnpm dev
-  ```
-* Jugar
-
-### Descripción
-
-Es un pequeño juego en el cual el usuario elige una de las 5 opciones y luego (de manera aleatoria) la "computadora" elige otra opción, en base a esas decisiones se muestra un mensaje si gana el usuario, la computadora o es empate.
-
-Este proyecto es el tercer proyecto de una serie de proyectos con React.
-Fue desarrollado en vivo en el [stream](https://www.twitch.tv/codigodemarras).
-
-La idea des estos proyectos es ir realizando proyectos que vayan incrementando su dificultad, desde un tic-tac-toe, pasando por un memory game, un sudoku y agregando más complejidad proyecto a proyecto...
+# Project "RPSLS" (Rock Paper Scissors Lizard Spock)
 
 ---
 
 ### Init Project
 
-* Clone the projecto
+* Clone project
 * Install dependencies
   ```
   pnpm install
   ```
-* Start the project
+* Start project
   ```
   pnpm dev
   ```
@@ -46,12 +17,26 @@ La idea des estos proyectos es ir realizando proyectos que vayan incrementando s
 
 ### Description
 
-It is a small game in which the user chooses one of the 5 options and then (randomly) the "computer" chooses another option, based on these decisions a message is displayed if the user wins, the computer wins or it is a tie.
+Developed with React and TypeScript, this engaging game allows users to select from five options, with the computer randomly choosing another. Based on these choices, a message is displayed to indicate if the user wins, the computer wins, or if it's a tie.
 
-This project is the third project from a serie of projecs with React.
-It was developed live in the [stream](https://www.twitch.tv/codigodemarras).
+---
 
-The idea of these projects is to make projects of increasing difficulty, from a tic-tac-toe, through a memory game, a sudoku and adding more complexity one project at a time...
+### Iniciar Proyecto
+
+* Clonar proyecto
+* Instalar dependencias
+  ```
+  pnpm install
+  ```
+* Iniciar proyecto
+  ```
+  pnpm dev
+  ```
+* Jugar
+
+### Descripción
+
+Desarrollado con React y TypeScript, este atractivo juego permite a los usuarios elegir entre cinco opciones, mientras que el ordenador selecciona otra al azar. En función de estas opciones, se muestra un mensaje que indica si el usuario gana, el ordenador gana o hay un empate.
 
 ---
 
@@ -83,19 +68,16 @@ v18.13.0.
 
 ---
 
-### Redes / Networks
+### Networks / Redes
 
 <div id="badges">
-  <a href="http://twitch.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/twitch-6441a5?style=for-the-badge&logo=twitch&logoColor=FFFFFF" alt="Website Badge"/>
+  <a href="https://walterradduso.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/website-8a0606?style=for-the-badge&logo=About.me&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
-  <a href="http://twitter.codigodemarras.com/" target="_blanck">
+  <a href="https://linkedin.walterradduso.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://twitter.com/walterradduso" target="_blank">
     <img src="https://img.shields.io/badge/twitter-00acee?style=for-the-badge&logo=twitter&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://youtube.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/youtube-c4302b?style=for-the-badge&logo=youtube&logoColor=FFFFFF" alt="Website Badge"/>
-  </a>
-  <a href="http://discord.codigodemarras.com/" target="_blanck">
-    <img src="https://img.shields.io/badge/discord-36393e?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Website Badge"/>
   </a>
 </div>
