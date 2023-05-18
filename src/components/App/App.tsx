@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { ResultMessage } from '../ResultMessage';
 import { SelectionMessage } from '../SelectionMessage';
+import { Footer } from '../Footer';
 import { OPTIONS } from '../../constants';
 
 import './styles.scss';
@@ -47,7 +48,7 @@ function App() {
 
         setWinner(calculateWinner);
         setDisabled(true);
-      }, 1500);
+      }, 1000);
     }
   }, [userSelection]);
 
@@ -77,6 +78,7 @@ function App() {
               disabled={disabled}
               onClick={() => {
                 setUserSelection(option);
+                setDisabled(true);
               }}
             >
               {option?.label}
@@ -94,6 +96,8 @@ function App() {
           <button onClick={reset}>Reiniciar</button>
         </div>
       )}
+
+      <Footer />
     </div>
   );
 }
